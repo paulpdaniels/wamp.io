@@ -125,6 +125,11 @@ var app = wamp.connect('ws://localhost:9000',
 
 ```
 
+### TODO
+
+- Add onOpen interface to the client (either through eventemitter or similar mechanism)
+- Add options to cache pending messages for a client until the underlying socket opens
+
 
 ## License 
 
